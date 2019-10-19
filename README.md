@@ -1,15 +1,22 @@
 This repositry has following algorithms implemented in c++
 
 – Naive Decision tree learner with Entropy as the impurity heuristic
-– Naive Decision tree learner with Variance as the impurity heuristic.
+
+– Naive Decision tree learner with Variance as the impurity heuristic
+
 – Decision tree learner with Entropy as the impurity heuristic and reduced error pruning
+
 – Decision tree learner with Variance as the impurity heuristic and reduced error pruning
+
 – Decision tree learner with Entropy as the impurity heuristic and depth-based pruning
+
 – Decision tree learner with Variance as the impurity heuristic and depth-based pruning
-– Random Forests
+
+– Random Forests classifier using scikit learn
 
 
 Variance impurity heuristic described below.
+
 Let K denote the number of examples in the training set. Let K0 denote the number of training examples that have class = 0 and K1 denote the number of training examples that have class = 1. The variance impurity of the training set S is defined as:
 VI(S) = K0*K1/K*K
 Notice that the impurity is 0 when the data is pure. The gain for this impurity is defined as usual.
