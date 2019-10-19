@@ -24,3 +24,6 @@ Gain(S, X) = VI(S) − Σx∈Values(X) Pr(x)VI(Sx)
 where X is an attribute, Sx denotes the set of training examples that have X = x and Pr(x) is the fraction of the training examples that have X = x (i.e., the number of training examples that have X = x divided by the number of training examples in S).
 
 Depth-based pruning uses maximum depth dmax as a hyper-parameter, namely in the decision tree prune all nodes having depth larger than dmax. We will assume that dmax takes values from the following set: {5,10,15,20,50,100}. We tune the hyper- parameters using the validation set.
+
+The dataset is present in below link:
+http://www.hlt.utdallas.edu/~vgogate/ml/2019f/homeworks/hw1_data.zip
